@@ -38,6 +38,15 @@ namespace LinqExercise.Exercises
                 {
                     Console.WriteLine(customer.Name);
                 }
+
+                var MillionairesByBank = millionairesClub
+                    .GroupBy(cust => cust.Bank);
+
+                foreach (var millionaire in MillionairesByBank)
+                {
+                    Console.WriteLine($"{millionaire.Key} {millionaire.ToList().Count}");
+                }
+
             }
         
         /* 
@@ -50,5 +59,6 @@ namespace LinqExercise.Exercises
             FTB 1
             CITI 1
         */
+        
     }
 }
