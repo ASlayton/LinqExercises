@@ -25,6 +25,8 @@ namespace LinqExercise
             AggregateOperations.Ex3();
             Console.WriteLine("Partitioning Exercise Output:");
             Partitioning.Ex1();
+            Console.WriteLine("Customs Types Output:");
+            CustomTypes.MillionairesClub();
             // CLOSE TERMINAL
             Console.WriteLine("Press enter to exit");
             Console.ReadLine();
