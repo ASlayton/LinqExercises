@@ -19,8 +19,10 @@ namespace LinqExercise
             OrderingExercises.OrderingOperationsNumbers();
             Console.WriteLine("Aggregate Function 1 Output");
             AggregateOperations.Ex1();
-            Console.WriteLine("Aggregate Function 1 Output");
+            Console.WriteLine("Aggregate Function 2 Output");
             AggregateOperations.Ex2();
+            Console.WriteLine("Aggregate Function 3 Output");
+            AggregateOperations.Ex3();
             // CLOSE TERMINAL
             Console.WriteLine("Press enter to exit");
             Console.ReadLine();
